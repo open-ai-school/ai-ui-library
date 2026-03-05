@@ -7,11 +7,15 @@
 [![npm version](https://img.shields.io/npm/v/@open-ai-school/ai-ui-library?color=6366f1&label=npm)](https://www.npmjs.com/package/@open-ai-school/ai-ui-library)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Storybook](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white)](https://ui.openaischool.vercel.app)
+[![Storybook](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white)](https://open-ai-school.github.io/ai-ui-library/)
+[![CI](https://github.com/open-ai-school/ai-ui-library/actions/workflows/ci.yml/badge.svg)](https://github.com/open-ai-school/ai-ui-library/actions/workflows/ci.yml)
+[![npm downloads](https://img.shields.io/npm/dm/@open-ai-school/ai-ui-library?color=6366f1)](https://www.npmjs.com/package/@open-ai-school/ai-ui-library)
 
 A production-ready React component library built with TypeScript, Tailwind CSS, and Framer Motion. Designed as the single source of truth for UI across all Open AI School programs.
 
-[**Live Storybook →**](https://ui.openaischool.vercel.app) · [**npm →**](https://www.npmjs.com/package/@open-ai-school/ai-ui-library) · [**Open AI School →**](https://openaischool.vercel.app)
+Published via **OIDC Trusted Publishing** — zero tokens, fully automated CI/CD.
+
+[**📖 Live Storybook →**](https://open-ai-school.github.io/ai-ui-library/) · [**📦 npm →**](https://www.npmjs.com/package/@open-ai-school/ai-ui-library) · [**🚀 Open AI School →**](https://openaischool.vercel.app)
 
 </div>
 
@@ -184,7 +188,7 @@ This library powers every repo in the [Open AI School](https://github.com/open-a
 
 | Repo | Description |
 |------|-------------|
-| [`platform`](https://github.com/open-ai-school/platform) | Main Next.js app shell |
+| [`ai-platform`](https://github.com/open-ai-school/ai-platform) | Main Next.js app shell |
 | [`ai-seeds`](https://github.com/open-ai-school/ai-seeds) | 🌱 Level 1: Absolute beginners |
 | `ai-sprouts` | 🌿 Level 2: Foundations (coming soon) |
 | `ai-branches` | 🌳 Level 3: Applied AI (coming soon) |
