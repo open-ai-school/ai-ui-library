@@ -144,3 +144,4 @@ storybook-static/
 # OS
 .DS_Store
 .npmrc
+storybook-static/
