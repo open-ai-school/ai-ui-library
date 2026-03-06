@@ -2,20 +2,20 @@
 
 # 🎨 AI UI Library
 
-**The shared design system for [Open AI School](https://openaischool.vercel.app)**
+**The shared design system for [AI Educademy](https://openaischool.vercel.app)**
 
-[![npm version](https://img.shields.io/npm/v/@open-ai-school/ai-ui-library?color=6366f1&label=npm)](https://www.npmjs.com/package/@open-ai-school/ai-ui-library)
+[![npm version](https://img.shields.io/npm/v/@ai-educademy/ai-ui-library?color=6366f1&label=npm)](https://www.npmjs.com/package/@ai-educademy/ai-ui-library)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Storybook](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white)](https://open-ai-school.github.io/ai-ui-library/)
-[![CI](https://github.com/open-ai-school/ai-ui-library/actions/workflows/ci.yml/badge.svg)](https://github.com/open-ai-school/ai-ui-library/actions/workflows/ci.yml)
-[![npm downloads](https://img.shields.io/npm/dm/@open-ai-school/ai-ui-library?color=6366f1)](https://www.npmjs.com/package/@open-ai-school/ai-ui-library)
+[![Storybook](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white)](https://ai-educademy.github.io/ai-ui-library/)
+[![CI](https://github.com/ai-educademy/ai-ui-library/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-educademy/ai-ui-library/actions/workflows/ci.yml)
+[![npm downloads](https://img.shields.io/npm/dm/@ai-educademy/ai-ui-library?color=6366f1)](https://www.npmjs.com/package/@ai-educademy/ai-ui-library)
 
-A production-ready React component library built with TypeScript, Tailwind CSS, and Framer Motion. Designed as the single source of truth for UI across all Open AI School programs.
+A production-ready React component library built with TypeScript, Tailwind CSS, and Framer Motion. Designed as the single source of truth for UI across all AI Educademy programs.
 
 Published via **OIDC Trusted Publishing** — zero tokens, fully automated CI/CD.
 
-[**📖 Live Storybook →**](https://open-ai-school.github.io/ai-ui-library/) · [**📦 npm →**](https://www.npmjs.com/package/@open-ai-school/ai-ui-library) · [**🚀 Open AI School →**](https://openaischool.vercel.app)
+[**📖 Live Storybook →**](https://ai-educademy.github.io/ai-ui-library/) · [**📦 npm →**](https://www.npmjs.com/package/@ai-educademy/ai-ui-library) · [**🚀 AI Educademy →**](https://openaischool.vercel.app)
 
 </div>
 
@@ -35,7 +35,7 @@ Published via **OIDC Trusted Publishing** — zero tokens, fully automated CI/CD
 ## 📦 Installation
 
 ```bash
-npm install @open-ai-school/ai-ui-library
+npm install @ai-educademy/ai-ui-library
 ```
 
 **Peer dependencies** (you likely already have these):
@@ -47,8 +47,8 @@ npm install react react-dom next
 ## 🚀 Quick Start
 
 ```tsx
-import { Button, Card, Badge, ThemeProvider, ThemeToggle } from "@open-ai-school/ai-ui-library";
-import "@open-ai-school/ai-ui-library/styles.css";
+import { Button, Card, Badge, ThemeProvider, ThemeToggle } from "@ai-educademy/ai-ui-library";
+import "@ai-educademy/ai-ui-library/styles.css";
 
 export default function App() {
   return (
@@ -58,7 +58,7 @@ export default function App() {
 
         <Card variant="glass" hover>
           <Badge variant="success">New</Badge>
-          <h2>Welcome to Open AI School</h2>
+          <h2>Welcome to AI Educademy</h2>
           <Button variant="primary" size="lg">
             Start Learning →
           </Button>
@@ -121,7 +121,7 @@ Education-specific components for progress tracking and personalized greetings.
 Import the CSS to get the full token system:
 
 ```css
-@import "@open-ai-school/ai-ui-library/styles.css";
+@import "@ai-educademy/ai-ui-library/styles.css";
 ```
 
 ### Available tokens
@@ -184,12 +184,12 @@ npm run dev
 
 ## 🌐 Used By
 
-This library powers every repo in the [Open AI School](https://github.com/open-ai-school) org:
+This library powers every repo in the [AI Educademy](https://github.com/ai-educademy) org:
 
 | Repo | Description |
 |------|-------------|
-| [`ai-platform`](https://github.com/open-ai-school/ai-platform) | Main Next.js app shell |
-| [`ai-seeds`](https://github.com/open-ai-school/ai-seeds) | 🌱 Level 1: Absolute beginners |
+| [`ai-platform`](https://github.com/ai-educademy/ai-platform) | Main Next.js app shell |
+| [`ai-seeds`](https://github.com/ai-educademy/ai-seeds) | 🌱 Level 1: Absolute beginners |
 | `ai-sprouts` | 🌿 Level 2: Foundations (coming soon) |
 | `ai-branches` | 🌳 Level 3: Applied AI (coming soon) |
 | `ai-canopy` | 🏕️ Level 4: Advanced (coming soon) |
@@ -208,4 +208,4 @@ We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for deta
 
 ## 📄 License
 
-MIT © [Open AI School](https://github.com/open-ai-school)
+MIT © [AI Educademy](https://github.com/ai-educademy)

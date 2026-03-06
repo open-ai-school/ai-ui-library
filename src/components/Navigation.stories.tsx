@@ -21,7 +21,7 @@ const sampleItems: NavItem[] = [
 
 export const Default: Story = {
   args: {
-    brand: <span className="text-lg font-bold text-[var(--color-text)]">🌱 Open AI School</span>,
+    brand: <span className="text-lg font-bold text-[var(--color-text)]">🌱 AI Educademy</span>,
     items: sampleItems,
     actions: (
       <Button size="sm" variant="outline">
@@ -33,7 +33,7 @@ export const Default: Story = {
 
 export const WithIcons: Story = {
   args: {
-    brand: <span className="text-lg font-bold text-[var(--color-text)]">🌱 Open AI School</span>,
+    brand: <span className="text-lg font-bold text-[var(--color-text)]">🌱 AI Educademy</span>,
     items: [
       { label: "Programs", href: "/programs", active: true, icon: <span>📚</span> },
       { label: "Dashboard", href: "/dashboard", icon: <span>📊</span> },
@@ -56,7 +56,7 @@ export const Minimal: Story = {
 
 export const NonSticky: Story = {
   args: {
-    brand: <span className="text-lg font-bold text-[var(--color-text)]">🌱 Open AI School</span>,
+    brand: <span className="text-lg font-bold text-[var(--color-text)]">🌱 AI Educademy</span>,
     items: sampleItems,
     sticky: false,
   },

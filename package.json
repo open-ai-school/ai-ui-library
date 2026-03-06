@@ -1,7 +1,7 @@
 {
-  "name": "@open-ai-school/ai-ui-library",
-  "version": "0.7.0",
-  "description": "Shared UI component library for Open AI School — React, TypeScript, Tailwind CSS, Framer Motion",
+  "name": "@ai-educademy/ai-ui-library",
+  "version": "1.0.0",
+  "description": "Shared UI component library for AI Educademy \u2014 React, TypeScript, Tailwind CSS, Framer Motion",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-ai-school/ai-ui-library"
+    "url": "https://github.com/ai-educademy/ai-ui-library"
   },
   "keywords": [
     "react",
@@ -38,15 +38,15 @@
     "components",
     "tailwindcss",
     "education",
-    "open-ai-school",
+    "ai-educademy",
     "design-system"
   ],
   "author": "Ramesh Reddy Adutla <rameshreddy.adutla@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/open-ai-school/ai-ui-library/issues"
+    "url": "https://github.com/ai-educademy/ai-ui-library/issues"
   },
-  "homepage": "https://github.com/open-ai-school/ai-ui-library#readme",
+  "homepage": "https://github.com/ai-educademy/ai-ui-library#readme",
   "peerDependencies": {
     "next": ">=14.0.0",
     "react": ">=18.0.0",

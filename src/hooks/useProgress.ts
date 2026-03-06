@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-const STORAGE_KEY = "open-ai-school-progress";
+const STORAGE_KEY = "ai-educademy-progress";
 
 interface ProgramProgress {
   completed: string[];

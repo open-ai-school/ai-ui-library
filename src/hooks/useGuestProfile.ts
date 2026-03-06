@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useCallback, useState, useEffect } from "react";
 
-const PROFILE_KEY = "open-ai-school-profile";
+const PROFILE_KEY = "ai-educademy-profile";
 
 export interface GuestProfile {
   name: string;
